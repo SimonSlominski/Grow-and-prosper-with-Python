@@ -1,6 +1,4 @@
-# Tasks_with_Python
-A set of tasks to learn the basics of programming in Python
-
+# Tasks with Python
 ## List of tasks broken down by the level of difficulty
 
 ### Level 1
