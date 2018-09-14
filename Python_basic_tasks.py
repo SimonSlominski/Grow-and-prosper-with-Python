@@ -54,3 +54,43 @@ makes_twenty(2,3) --> False
 
 def makes_twenty(n1,n2):
     return n1+n2==20 or n1==20 or n2==20
+
+
+"""
+TASK 04 - Range check
+
+Write a function that checks whether a number is in a given range (inclusive of high and low)
+
+ran_check(5,2,7) --> '5 is in the range between 2 and 7'
+"""
+
+def ran_check(num,low,high):
+    if num in range(low,high):
+        return f"{num} is in the range between {low} and {high}"
+
+
+"""
+TASK 05 - List multiplication
+
+Write a Python function to multiply all the numbers in a list.
+
+Sample List : [1, 2, 3, -4] --> -24
+"""
+
+def multiply(numbers):
+    result = 1         # HINT: Don't use 0 here, otherwise, you'll get zero because anything times zero will be zero!
+    for num in numbers:
+        result *= num
+    return result
+
+
+"""
+TASK 06 - Palindrom
+
+Write a Python function that checks whether a passed in string is palindrome or not.
+
+Note: A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
+"""
+
+def palindrome(s):
+    return s[:] == s[::-1]
