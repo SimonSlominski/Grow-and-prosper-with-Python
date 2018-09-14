@@ -1,6 +1,6 @@
 
 """
-TASK 04 - MacDonald
+TASK 07 - MacDonald
 
 Write a function that capitalizes the first and fourth letters of a name
 
@@ -29,7 +29,7 @@ def macdonald_second_option(name):
 
 
 """
-TASK 05 - Master Yoda
+TASK 08 - Master Yoda
 
 Given a sentence, return a sentence with the words reversed
 
@@ -42,7 +42,7 @@ def master_yoda(text):
 
 
 """
-TASK 06 - Almost there
+TASK 09 - Almost there
 
 Given an integer n, return True if n is within 10 of either 100 or 200
 
@@ -60,7 +60,7 @@ def almost_there_second_option(n):
 
 
 """
-TASK 07 - Find 33
+TASK 10 - Find 33
 
 Given a list of ints, return True if the array contains a 3 next to a 3 somewhere.
 
@@ -77,7 +77,7 @@ def has_33(nums):
 
 
 """
-TASK 08 Paper Doll
+TASK 11 Paper Doll
 
 Given a string, return a string where for every character in the original there are three characters
 
@@ -94,7 +94,7 @@ def paper_doll(text):
 
 
 """
-TASK 09 Blackjack
+TASK 12 Blackjack
 
 Given three integers between 1 and 11, if their sum is less than or equal to 21, return their sum. 
 If their sum exceeds 21 and there's an eleven, reduce the total sum by 10. 
@@ -115,7 +115,7 @@ def blackjack(a, b, c):
 
 
 """
-TASK 10 Summer of '69'
+TASK 13 Summer of '69'
 
 Return the sum of the numbers in the array, except ignore sections of numbers starting with a 6 and extending
 to the next 9 (every 6 will be followed by at least one 9). Return 0 for no numbers.
@@ -142,7 +142,7 @@ def summer_69(arr):
 
 
 """
-TASK 11 James Bond
+TASK 14 James Bond
 
 Write a function that takes in a list of integers and returns True if it contains 007 in order
  
