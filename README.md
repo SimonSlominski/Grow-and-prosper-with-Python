@@ -1,4 +1,4 @@
-# Tasks with Python
+# Python workshops
 ## List of tasks broken down by the level of difficulty
 
 ### Level 1 :hatching_chick:
