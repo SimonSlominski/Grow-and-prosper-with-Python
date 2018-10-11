@@ -20,3 +20,8 @@ In this folder you will find a script that allows you to play a game of tic-tac-
 File: Python_OOP.py in Python_tasks
 
 In this section you will find a simple task and example solution from the Object Oriented Programming area.
+
+### Level 4 :chicken:
+File: blackjack_game.py in Blackjack
+
+In this folder you will find a script that allows you to play Blackjack with a computer.
