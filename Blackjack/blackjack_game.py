@@ -22,7 +22,7 @@ class Card:
 
 class Deck:
 
-    def __init__(self):
+    def __init__(self): # we don't insert the "deck" parameter because we want the deck to look the same way every time
         self.deck = []
         for suit in SUITS:
             for rank in RANKS:
@@ -38,7 +38,7 @@ class Deck:
         random.shuffle(self.deck)
 
     def deal(self):
-        single_card = self.deck.pop()
+        single_card = self.deck.pop() # taking a card from the deck
         return single_card
 
 
@@ -50,21 +50,21 @@ class Hand:
         self.aces = 0       # add an attribute to keep track of aces
 
     def add_card(self, card):
-        self.cards.append(card)
-        self.value += VALUES[card.rank]
+        self.cards.append(card) # the card is from Deck.deal() --> single Card(suit,rank)
+        self.value += VALUES[card.rank] # values come from dictionary 'VALUES'
         if card.rank == 'Ace':
-            self.aces += 1  # add to self. aces
+            self.aces += 1  # add to self.aces
 
     def adjust_for_ace(self):
-        while self.value > 21 and self.aces:
+        while self.value > 21 and self.aces: # self.aces will be True if it is > 0. Alternative code: self.aces > 0
             self.value -= 10
             self.aces -= 1
 
 
 class Chips:
 
-    def __init__(self):
-        self.total = 100
+    def __init__(self,total=100):
+        self.total = total
         self.bet = 0
 
     def win_bet(self):
@@ -205,7 +205,7 @@ while True:
         else:
             push(player_hand, dealer_hand)
 
-            # Inform Player of their chips total
+    # Inform Player of their chips total
     print("\nPlayer's winnings stand at", player_chips.total)
 
     # Ask to play again
