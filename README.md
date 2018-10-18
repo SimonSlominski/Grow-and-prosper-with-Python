@@ -9,7 +9,7 @@ Level 1 consists of 6 tasks. Each task includes a description and example soluti
 ### Level 2 :hatched_chick:
 File: Python_elementary_tasks.py in Python_tasks
 
-Level 2 consists of 8 tasks. Each task includes a description and example solution.
+Level 2 consists of 9 tasks. Each task includes a description and example solution.
 
 ### Level 3 :baby_chick:
 File: game_main.py in Tic Tac Toe
