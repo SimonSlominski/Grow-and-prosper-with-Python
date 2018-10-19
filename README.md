@@ -25,3 +25,9 @@ In this section you will find a simple task and example solution from the Object
 File: blackjack_game.py in Blackjack
 
 In this folder you will find a script that allows you to play Blackjack with a computer.
+
+### Mixed levels :school_satchel:
+Files: 6_kyu.py, 7_kyu.py 8_kyu.py in Codewars
+
+Tasks with different levels of difficulty. All tasks come from www.codewars.com and their level is compatible with kata (level) from the website.
+
